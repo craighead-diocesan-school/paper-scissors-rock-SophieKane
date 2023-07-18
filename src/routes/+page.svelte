@@ -63,7 +63,7 @@
   <img src="paper 2.png" alt="paper" />
 {:else if computerAnswer == "scissors"}
   <img src="scissors 3.png" alt="scissors" />
-{:else if userAnswer == "rock"}
+{:else if computerAnswer == "rock"}
   <img src="rock 2.png" alt="rock" />
 {/if}
 
